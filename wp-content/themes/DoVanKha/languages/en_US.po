@@ -1,0 +1,94 @@
+# English translation for DoVanKha WordPress Theme
+# Copyright (C) 2026 Đỗ Văn Kha
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: DoVanKha 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/dovankha\n"
+"POT-Creation-Date: 2026-09-08 07:40+0700\n"
+"PO-Revision-Date: 2026-09-08 07:45+0700\n"
+"Last-Translator: Đỗ Văn Kha <dvk2k333@gmail.com>\n"
+"Language-Team: English <en@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: dovankha\n"
+
+#: header.php:33
+msgid "Welcome to my website!"
+msgstr "Welcome to my website!"
+
+#: header.php:35
+msgid "This is a custom WordPress theme developed by"
+msgstr "This is a custom WordPress theme developed by"
+
+#: index.php:23 index.php:49
+msgid "Read more"
+msgstr "Read more"
+
+#: index.php:17 index.php:37
+msgid "Posted on"
+msgstr "Posted on"
+
+#: index.php:19 index.php:39
+msgid "By"
+msgstr "By"
+
+#: index.php:34
+msgid "Sample Post: Welcome to DoVanKha Theme"
+msgstr "Sample Post: Welcome to DoVanKha Theme"
+
+#: index.php:43
+msgid "This is a demonstration post showcasing the DoVanKha custom theme layout. The content width is strictly limited to 900px according to the MYTHEME_CONTENT_WIDTH constant. Background color, custom background image, typography, and text color can all be customized in the WordPress Customizer."
+msgstr "This is a demonstration post showcasing the DoVanKha custom theme layout. The content width is strictly limited to 900px according to the MYTHEME_CONTENT_WIDTH constant. Background color, custom background image, typography, and text color can all be customized in the WordPress Customizer."
+
+#: footer.php:18
+msgid "Theme Constants Information (Footer)"
+msgstr "Theme Constants Information (Footer)"
+
+#: footer.php:24
+msgid "Phiên bản Theme"
+msgstr "Theme Version"
+
+#: footer.php:32
+msgid "Tác giả phát triển"
+msgstr "Theme Author"
+
+#: footer.php:40
+msgid "Giới hạn độ rộng nội dung"
+msgstr "Content Width Limit"
+
+#: footer.php:51
+msgid "All rights reserved."
+msgstr "All rights reserved."
+
+#: footer.php:53
+msgid "Theme developed by"
+msgstr "Theme developed by"
+
+#: footer.php:55
+msgid "Max Content Width"
+msgstr "Max Content Width"
+
+#: functions.php:87
+msgid "Màu chữ chính (Main Text Color)"
+msgstr "Main Text Color"
+
+#: functions.php:88
+msgid "Tùy chỉnh màu sắc chữ cho toàn bộ trang web"
+msgstr "Customize typography color for the whole website"
+
+#: functions.php:95
+msgid "Font chữ (Typography)"
+msgstr "Typography"
+
+#: functions.php:97
+msgid "Chọn font chữ hiển thị cho giao diện theme"
+msgstr "Select font family for theme layout"
+
+#: functions.php:107
+msgid "Chọn Font chữ"
+msgstr "Select Font Family"

@@ -1,0 +1,190 @@
+/*
+Theme Name: DoVanKha
+Theme URI: https://localhost/lttheme
+Author: Đỗ Văn Kha
+Description: Theme WordPress bài tập thực hành tổng hợp: tùy biến hình nền, màu chữ, font chữ, hằng số footer và đa ngôn ngữ.
+Version: 1.0
+Text Domain: dovankha
+Domain Path: /languages
+*/
+
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f0f0f0; /* Nền mặc định theo yêu cầu 1 */
+}
+
+/* Yêu cầu 4: Chiều rộng nội dung giới hạn 900px */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.header {
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site-title h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.site-title a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.site-desc {
+    color: #666666;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* Chuyển đổi ngôn ngữ */
+.lang-switch {
+    font-size: 13px;
+}
+
+.lang-switch a {
+    color: #0073aa;
+    text-decoration: none;
+    padding: 3px 8px;
+    border: 1px solid #cccccc;
+    background: #f9f9f9;
+    border-radius: 3px;
+}
+
+.lang-switch a:hover {
+    background: #0073aa;
+    color: #ffffff;
+}
+
+/* Khối chào mừng (Yêu cầu 5) */
+.welcome-box {
+    background-color: #e7f3fe;
+    border-left: 5px solid #2196f3;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+}
+
+.welcome-box h2 {
+    font-size: 20px;
+    color: #0c5460;
+}
+
+/* Nội dung bài viết */
+.content-area {
+    margin-bottom: 30px;
+}
+
+.post-item {
+    padding: 15px 0;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-item h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.post-item h3 a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.post-item h3 a:hover {
+    color: #0073aa;
+}
+
+.post-meta {
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 10px;
+}
+
+.post-excerpt {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #444444;
+}
+
+/* Nút Read more / Xem thêm (Yêu cầu 5) */
+.btn-readmore {
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: #0073aa;
+    color: #ffffff !important;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.btn-readmore:hover {
+    background-color: #005177;
+}
+
+/* Footer hiển thị Hằng số (Yêu cầu 3) */
+.footer {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #eeeeee;
+}
+
+.constants-box {
+    background-color: #fcfcfc;
+    border: 1px solid #e2e2e2;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.constants-box h4 {
+    color: #0073aa;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.constants-box p {
+    margin-bottom: 5px;
+    font-size: 13.5px;
+}
+
+.constants-box code {
+    background: #f1f1f1;
+    padding: 2px 6px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    color: #d63638;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #777777;
+}

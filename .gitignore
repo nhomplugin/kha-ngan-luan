@@ -1,0 +1,12 @@
+# Bỏ qua 2 plugin vừa tạo theo yêu cầu
+wp-content/plugins/dvk-text-to-speech/
+wp-content/plugins/dvk-voice-command/
+
+# File nén & file tạm
+wp-content/plugins/*.rar
+wp-content/plugins/*.zip
+*.log
+
+# Hệ điều hành
+Thumbs.db
+.DS_Store
